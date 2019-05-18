@@ -31,6 +31,7 @@ leetcode Study 网站：https://leetcode-cn.com/problemset/all/
 
 13. t20190406_isMatch_dontKnow: 给定一个字符串 (s) 和一个字符模式 (p)。实现支持 '.' 和 '*' 的正则表达式匹配。
 
+
 14. t20190410_isValid: 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
 
 15. t20190411_letterCombinations: 给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。
@@ -38,3 +39,30 @@ leetcode Study 网站：https://leetcode-cn.com/problemset/all/
 16. t20190413_fourSum: 给定一个包含 n 个整数的数组 nums 和一个目标值 target，判断 nums 中是否存在四个元素 a，b，c 和 d ，使得 a + b + c + d 的值与 target 相等？找出所有满足条件且不重复的四元组。
 
 17. t20190415_generateParenthesis: 给出 n 代表生成括号的对数，请你写出一个函数，使其能够生成所有可能的并且有效的括号组合。
+
+18. t20190416_divide： 给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
+[url](https://leetcode-cn.com/problems/divide-two-integers/)
+
+19. t20190331_two_num_add :23. 合并K个排序链表  合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
+[url](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+
+20. t20190418_removeDuplicates :26. 删除排序数组中的重复项  合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
+[url](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+
+21. t20190419_nextPermutation： 31. 下一个排列 实现获取下一个排列的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
+如果不存在下一个更大的排列，则将数字重新排列成最小的排列（即升序排列）。
+[url](https://leetcode-cn.com/problems/next-permutation/)
+
+22. t20190512_searchRange:在排序数组中查找元素的第一个和最后一个位置
+给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
+你的算法时间复杂度必须是 O(log n) 级别。
+如果数组中不存在目标值，返回 [-1, -1]。
+[url](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+[方法解析](https://mp.weixin.qq.com/s?__biz=MzAxMTU5Njg4NQ==&mid=100001874&idx=2&sn=6a86df02f32417d3cd4f4869200c5264)
+
+23. t20190518_isValidSudoku:有效的数独
+    判断一个 9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
+[url](https://leetcode-cn.com/problems/valid-sudoku/)
+
+[方法解析](https://mp.weixin.qq.com/s?__biz=MzAxMTU5Njg4NQ==&mid=100001874&idx=3&sn=8aac86e18cac062ce2edfe15c66fb669)
