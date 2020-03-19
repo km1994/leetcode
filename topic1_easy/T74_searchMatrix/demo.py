@@ -30,7 +30,7 @@ class Solution:
     def searchMatrix(self, matrix, target):
         row = len(matrix)
         if row == 0:
-            return 
+            return False
         col = len(matrix[0])
         left = 0
         right = row*col-1
