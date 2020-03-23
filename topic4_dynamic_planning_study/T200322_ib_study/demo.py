@@ -77,7 +77,7 @@ class Solution:
             return 0
         pre = 1
         next = 1
-        sum = 0
+        sum = 1
         for i in range(3,n+1):
             sum = pre + next
             pre = next
