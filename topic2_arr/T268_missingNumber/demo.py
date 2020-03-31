@@ -37,9 +37,6 @@ class Solution:
             temp_num = temp_num^i^num
         return temp_num
 
-    
-   
-
 if __name__ == "__main__":
     
     solution = Solution()
