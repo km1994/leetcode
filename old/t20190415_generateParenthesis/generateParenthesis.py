@@ -26,7 +26,7 @@
 class Solution:
     def __init__(self):
         self.parenthesis_list=[]
-    def generateParenthesis(self, n):
+    def generateParenthesis1(self, n):
         parenthesis_str="("
         l=1
         r=0

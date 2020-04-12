@@ -18,13 +18,13 @@
 
 '''
 from collections import Counter
+import heapq
 class Solution:
     # 方法一：api 法
-    def maxSlidingWindow1(self, nums, k):
-        return [i[0] for i in Counter(nums).most_common(k)]
-        
+    def topKFrequent(self, nums, k):
+        count = Counter(nums)   
+        return heapq.nlargest(k, count.keys(), key=count.get) 
 
-      
 if __name__ == "__main__":
     
     solution = Solution()
@@ -34,7 +34,7 @@ if __name__ == "__main__":
         if str1 != "" and str2 != "":
             nums = [int(num) for num in str1.split(",")]
             k = int(str2)
-            res = solution.maxSlidingWindow1(nums, k)
+            res = solution.topKFrequent(nums, k)
             print(res)
         else:
             break
