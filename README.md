@@ -4,6 +4,8 @@
 
 因为目前正在 找工作需要刷题，为了方便后期学习，我将自己刷过的 题目以及对应的解法记录 于该项目中，方便后期学习，也方便大家学习，如果有帮助，麻烦给个 star , Thank you!
 
+**本项目目前正在更新，而且我们组织了一个学习小组，如果你也面临着找工作刷题每人讨论的烦恼，可以联系我，欢迎你的加入！！！**
+
 ## 题目思维导图
 
 1. [已完成题目思维导图](https://shimo.im/mindmaps/ckjxTq9CXyRYHgWg) 
@@ -13,6 +15,7 @@
 2. [在做题目思维导图](https://shimo.im/mindmaps/JQWpGvKwWKrWcxTw) 
 
 ![](img/2.png)
+
 
 ## 题目汇总
 
@@ -138,7 +141,8 @@
 1. [面试题51. 数组中的逆序对](topic15_merge/TM51_reversePairs/)
 
 
+## 参考
 
-
-leetcode Study 网站：https://leetcode-cn.com/problemset/all/
+1. [leetcode Study 网站](https://leetcode-cn.com/problemset/all/)
+2. [剑指 offer](https://www.nowcoder.com/ta/coding-interviews)
 
