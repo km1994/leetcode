@@ -92,6 +92,7 @@
 **[思路汇总](topic9_hash_table/)**
 1. [171. Excel表列序号](topic9_hash_table/T171_titleToNumber/)
 2. [454. 四数相加 II](topic9_hash_table/T454_forth_sum/)
+3. [面试题56 - I. 数组中数字出现的次数](topic1_easy/MST56_1_singleNumbers/)
 ### [队列](topic10_queue/)
 **[思路汇总](topic10_queue/)**
 1. [239. 滑动窗口最大值](topic10_queue/T239_maxSlidingWindow/)
@@ -112,6 +113,7 @@
 4. [131. 分割回文串](topic12_backtrack/T131_partition/)
 5. [200. 岛屿数量](topic12_backtrack/T200_numIslands/)
 6. [212. 单词搜索 II](topic12_backtrack/T212_findWords/)
+7. [980. 不同路径 III](topic12_backtrack/T980_uniquePathsIII/)
 ### [树](topic13_tree/)
 **[思路汇总](topic13_tree/)**
 1. [树构建](topic13_tree/T_tree)
