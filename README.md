@@ -91,6 +91,7 @@
 2. [18. 四数之和](topic8_binary_search/T18_forth_sum/)
 3. [33. 搜索旋转排序数组](topic8_binary_search/T33_search/)
 4. [162. 寻找峰值](topic8_binary_search/T162_findPeakElement/)
+5. [1095. 山脉数组中查找目标值](topic8_binary_search/T1095_findInMountainArray/)
 ### [哈希表](topic9_hash_table/)
 **[思路汇总](topic9_hash_table/)**
 1. [171. Excel表列序号](topic9_hash_table/T171_titleToNumber/)
