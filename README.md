@@ -140,6 +140,9 @@
 ### [归并排序](topic15_merge/)
 **[思路汇总](topic15_merge/)**
 1. [面试题51. 数组中的逆序对](topic15_merge/TM51_reversePairs/)
+### [快慢指针](topic16_speed_pointer/)
+**[思路汇总](topic16_speed_pointer/)**
+1. [202. 快乐数](topic16_speed_pointer/T202_isHappy/)
 
 
 ## 参考
