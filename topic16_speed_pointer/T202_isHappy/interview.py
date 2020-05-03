@@ -19,7 +19,18 @@
 
 '''
 class Solution:
+
+    # 迭代
     def isHappy(self, n: int) -> bool:
+        for _ in range(10):
+            n=self.bitSquareSum(n)
+            if n==1:
+                return True
+        return False
+
+
+    # 快慢指针法
+    def isHappy1(self, n: int) -> bool:
         slow = n
         fast = n
         slow = self.bitSquareSum(slow)

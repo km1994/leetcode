@@ -62,6 +62,16 @@
 10. [23. 合并K个排序链表](topic3_List/T23_mergeKLists/)
 ### [动态规划](topic4_dynamic_planning_study/)
 **[思路汇总](topic4_dynamic_planning_study/)**
+#### 只需借鉴 上一步 
+
+1. [53. 最大子序和](topic4_dynamic_planning_study/T53_maxSubArray/) 【简单】
+
+#### 想要借鉴之前步骤
+
+1. [300. 最长上升子序列](topic4_dynamic_planning_study/T300_lengthOfLIS/) 【中等】
+
+#### 未分类
+
 1. [在未排序链表中，怎样移除重复的节点?](topic4_dynamic_planning_study/0811_waysToChange/)
 2. [牛妹的蛋糕](topic4_dynamic_planning_study/NK_cakeNumber/)
 3. [887. 鸡蛋掉落](topic4_dynamic_planning_study/T887_superEggDrop/)
@@ -70,6 +80,7 @@
 6. [面试题10- I. 斐波那契数列](topic4_dynamic_planning_study/T200322_ib_study/)
 7. [62. 不同路径](topic4_dynamic_planning_study/T200323_uniquePathsWithObstacles/)
 8. [63. 不同路径 II](topic4_dynamic_planning_study/T200323_uniquePaths/)
+
 ### [字符串](topic5_string/)
 **[思路汇总](topic5_string/)**
 1. [5. 最长回文子串](topic5_string/T5_longestPalindrome/)
