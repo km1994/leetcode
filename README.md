@@ -154,7 +154,9 @@
 ### [快慢指针](topic16_speed_pointer/)
 **[思路汇总](topic16_speed_pointer/)**
 1. [202. 快乐数](topic16_speed_pointer/T202_isHappy/)
-
+### [快慢指针](topic17_greedy/)
+**[思路汇总](topic17_greedy/)**
+1. [45. 跳跃游戏 II](topic17_greedy/T45_jump/)
 
 ## 参考
 
