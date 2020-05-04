@@ -159,9 +159,9 @@
 1. [45. 跳跃游戏 II](topic17_greedy/T45_jump/)
 ### [递归](topic18_recursive/)
 **[思路汇总](topic18_recursive/)**
-### [分治]](topic19_divide_and_conquer/)
+### [分治](topic19_divide_and_conquer/)
 **[思路汇总](topic19_divide_and_conquer/)**
-### [分支限界法]](topic20_branch_and_bound_method/)
+### [分支限界法](topic20_branch_and_bound_method/)
 **[思路汇总](topic20_branch_and_bound_method/)**
 
 
