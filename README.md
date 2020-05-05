@@ -23,12 +23,6 @@
 
 ![](img/3.png)
 
-
-### [面试题](interview/)
-
-1. [美团 2020 年春招](interview/meituan_interview/)
-2. [携程 2020 年春招](interview/ctrip_interview/)
-
 ### [简单题](topic1_easy/)
 1. [74. 搜索二维矩阵](topic1_easy/T74_searchMatrix/)
 2. [88. 合并两个有序数组](topic1_easy/T88_merge/)
@@ -109,6 +103,7 @@
 1. [171. Excel表列序号](topic9_hash_table/T171_titleToNumber/)
 2. [454. 四数相加 II](topic9_hash_table/T454_forth_sum/)
 3. [面试题56 - I. 数组中数字出现的次数](topic1_easy/MST56_1_singleNumbers/)
+4. [141. 环形链表](topic9_hash_table/T141_hasCycle/)
 ### [队列](topic10_queue/)
 **[思路汇总](topic10_queue/)**
 1. [239. 滑动窗口最大值](topic10_queue/T239_maxSlidingWindow/)
@@ -131,6 +126,7 @@
 6. [212. 单词搜索 II](topic12_backtrack/T212_findWords/)
 7. [980. 不同路径 III](topic12_backtrack/T980_uniquePathsIII/)
 8. [98. 验证二叉搜索树](topic12_backtrack/T98_isValidBST/) 【中等】
+9. [140. 单词拆分 II](topic12_backtrack/T140_wordBreak/) 【困难】
 ### [树](topic13_tree/)
 **[思路汇总](topic13_tree/)**
 1. [树构建](topic13_tree/T_tree)
@@ -150,12 +146,14 @@
 **[思路汇总](topic14_two_pointer/)**
 1. [11. 盛最多水的容器](topic14_two_pointer/T11_maxArea/)
 2. [面试题 08.11. 硬币](topic14_two_pointer/T1248_numberOfSubarrays/)
+3. [神奇数字](topic14_two_pointer/NK_change/) 【[牛客网](https://www.nowcoder.com/practice/01e7bedf5dd2421aa6f879fd8055e51d?tpId=110&tqId=33453&tPage=1&rp=1&ru=/ta/job-code&qru=/ta/job-code/question-ranking)】 【难度：1】
 ### [归并排序](topic15_merge/)
 **[思路汇总](topic15_merge/)**
 1. [面试题51. 数组中的逆序对](topic15_merge/TM51_reversePairs/)
 ### [快慢指针](topic16_speed_pointer/)
 **[思路汇总](topic16_speed_pointer/)**
 1. [202. 快乐数](topic16_speed_pointer/T202_isHappy/)
+2. [283. 移动零](topic16_speed_pointer/T283_moveZeroes/) 【简单】
 ### [贪心算法](topic17_greedy/)
 **[思路汇总](topic17_greedy/)**
 1. [45. 跳跃游戏 II](topic17_greedy/T45_jump/)
@@ -165,7 +163,12 @@
 **[思路汇总](topic19_divide_and_conquer/)**
 ### [分支限界法](topic20_branch_and_bound_method/)
 **[思路汇总](topic20_branch_and_bound_method/)**
-
+### [位运算](topic21_Bit_operation/)
+**[思路汇总](topic21_Bit_operation/)**
+1. [136. 只出现一次的数字](topic17_greedy/T136_ingleNumber/)
+### [面试题](interview/)
+1. [美团 2020 年春招](interview/meituan_interview/)
+2. [携程 2020 年春招](interview/ctrip_interview/)
 
 ## 参考
 
