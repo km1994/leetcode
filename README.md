@@ -66,9 +66,10 @@
 
 1. [53. 最大子序和](topic4_dynamic_planning_study/T53_maxSubArray/) 【简单】
 
-#### 想要借鉴之前步骤
+#### 需要借鉴之前步骤
 
 1. [300. 最长上升子序列](topic4_dynamic_planning_study/T300_lengthOfLIS/) 【中等】
+2. [139. 单词拆分](topic4_dynamic_planning_study/T139_wordBreak/) 【中等】
 
 #### 未分类
 
@@ -129,6 +130,7 @@
 5. [200. 岛屿数量](topic12_backtrack/T200_numIslands/)
 6. [212. 单词搜索 II](topic12_backtrack/T212_findWords/)
 7. [980. 不同路径 III](topic12_backtrack/T980_uniquePathsIII/)
+8. [98. 验证二叉搜索树](topic12_backtrack/T98_isValidBST/) 【中等】
 ### [树](topic13_tree/)
 **[思路汇总](topic13_tree/)**
 1. [树构建](topic13_tree/T_tree)
