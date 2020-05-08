@@ -56,17 +56,29 @@
 10. [23. 合并K个排序链表](topic3_List/T23_mergeKLists/)
 ### [动态规划](topic4_dynamic_planning_study/)
 **[思路汇总](topic4_dynamic_planning_study/)**
-#### 只需借鉴 上一步 
-
+#### 只需借鉴 上一步 （定义变量类型）
+##### 介绍
+此类题型的特点在于，当前位置的取值，仅与前一个位置相关，与其他位置无关，所以只需定义一个变量保存前一个值即可；
+##### 类型题介绍
 1. [53. 最大子序和](topic4_dynamic_planning_study/T53_maxSubArray/) 【简单】
-
-#### 需要借鉴之前步骤
-
+#### 需要借鉴之前步骤（定义数组类型）
+##### 介绍
+此类题型的特点在于，当前位置的取值，不仅与前一个位置相关，而且与其他位置相关， 所以需定义一个长度为 len+1 的向量保存之前所计算得到的值；
+##### 类型题介绍
 1. [300. 最长上升子序列](topic4_dynamic_planning_study/T300_lengthOfLIS/) 【中等】
 2. [139. 单词拆分](topic4_dynamic_planning_study/T139_wordBreak/) 【中等】
+3. [983. 最低票价](topic4_dynamic_planning_study/T983_mincostTickets/) 【中等】
+#### 需要借鉴之前步骤（定义矩阵类型）
+##### 介绍
+此类题型的特点在于，当前位置的取值，不仅与前一个位置相关，而且与其他位置相关， 而且该问题需要 上升 到 矩阵层次上考虑，所以需定义一个矩阵保存之前所计算得到的值；
+##### 类型题介绍
+1. [221. 最大正方形](topic4_dynamic_planning_study/T221_maximalSquare/) 【中等】
+##### 0-1 背包问题
+此类题型的特点在于元素要么取，要么不取
+##### 类型题介绍
+1. [416. 分割等和子集](topic4_dynamic_planning_study/T416_canPartition/) 【中等】
 
 #### 未分类
-
 1. [在未排序链表中，怎样移除重复的节点?](topic4_dynamic_planning_study/0811_waysToChange/)
 2. [牛妹的蛋糕](topic4_dynamic_planning_study/NK_cakeNumber/)
 3. [887. 鸡蛋掉落](topic4_dynamic_planning_study/T887_superEggDrop/)
@@ -75,7 +87,6 @@
 6. [面试题10- I. 斐波那契数列](topic4_dynamic_planning_study/T200322_ib_study/)
 7. [62. 不同路径](topic4_dynamic_planning_study/T200323_uniquePathsWithObstacles/)
 8. [63. 不同路径 II](topic4_dynamic_planning_study/T200323_uniquePaths/)
-
 ### [字符串](topic5_string/)
 **[思路汇总](topic5_string/)**
 1. [5. 最长回文子串](topic5_string/T5_longestPalindrome/)
