@@ -109,6 +109,10 @@
 3. [33. 搜索旋转排序数组](topic8_binary_search/T33_search/)
 4. [162. 寻找峰值](topic8_binary_search/T162_findPeakElement/)
 5. [1095. 山脉数组中查找目标值](topic8_binary_search/T1095_findInMountainArray/)
+6. [11. 盛最多水的容器](topic8_binary_search/T11_maxArea/)
+7. [面试题 08.11. 硬币](topic8_binary_search/T1248_numberOfSubarrays/)
+8. [神奇数字](topic8_binary_search/NK_change/) 【[牛客网](https://www.nowcoder.com/practice/01e7bedf5dd2421aa6f879fd8055e51d?tpId=110&tqId=33453&tPage=1&rp=1&ru=/ta/job-code&qru=/ta/job-code/question-ranking)】 【难度：1】
+9. [69. x 的平方根](topic8_binary_search/T69_mySqrt/) 【[leetcode]](https://leetcode-cn.com/problems/sqrtx/)】 【简单】
 ### [哈希表](topic9_hash_table/)
 **[思路汇总](topic9_hash_table/)**
 1. [171. Excel表列序号](topic9_hash_table/T171_titleToNumber/)
@@ -153,11 +157,6 @@
 11. [257. 二叉树的所有路径](topic13_tree/T257_binaryTreePaths/)
 12. [297. 二叉树的序列化与反序列化](topic13_tree/T297_Codec/)
 13. [563. 二叉树的坡度](topic13_tree/T563_findTilt/)
-### [双指针](topic14_two_pointer/)
-**[思路汇总](topic14_two_pointer/)**
-1. [11. 盛最多水的容器](topic14_two_pointer/T11_maxArea/)
-2. [面试题 08.11. 硬币](topic14_two_pointer/T1248_numberOfSubarrays/)
-3. [神奇数字](topic14_two_pointer/NK_change/) 【[牛客网](https://www.nowcoder.com/practice/01e7bedf5dd2421aa6f879fd8055e51d?tpId=110&tqId=33453&tPage=1&rp=1&ru=/ta/job-code&qru=/ta/job-code/question-ranking)】 【难度：1】
 ### [归并排序](topic15_merge/)
 **[思路汇总](topic15_merge/)**
 1. [面试题51. 数组中的逆序对](topic15_merge/TM51_reversePairs/)

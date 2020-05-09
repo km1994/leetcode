@@ -1,0 +1,38 @@
+#  Local .terraform directories
+**/.terraform/*
+**/w2v_model/
+**/saved/
+**/runs/
+**/.idea/
+**/__pycache__/
+**/.ipynb_checkpoints/
+.settings/
+.vscode/
+.bin/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+*.txt
+*.csv
+task/.idea/*
+*.xml
+*.zip
+*.rar
+*.bin
+*.vec
+*.model
+*.gz
+*.bz2
+*.word
+*.pkl
+*.tsv
+*.neg
+*.pos
+*.classpath
+*.project
+
