@@ -9,6 +9,7 @@
 .settings/
 .vscode/
 .bin/
+bin/
 
 # .tfstate files
 *.tfstate
