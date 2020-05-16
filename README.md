@@ -28,6 +28,8 @@
 2. [88. 合并两个有序数组](topic1_easy/T88_merge/)
 3. [136. 只出现一次的数字](topic1_easy/T136_ingleNumber/)
 4. [240. 搜索二维矩阵 II](topic1_easy/T240_searchMatrix2/)
+5. [50. Pow(x, n)](topic1_easy/T50_myPow/)【[leetcode]](https://leetcode-cn.com/problems/powx-n/)】 【简单】
+
 ### [数组](topic2_arr/)
 1. [350. 两个数组的交集 II](topic1_easy/T_select_max_min/)
 2. [1. 两数之和](topic1_easy/T1_twoSum/)
@@ -42,6 +44,7 @@
 11. [349. 两个数组的交集](topic1_easy/T349_intersection/)
 12. [350. 两个数组的交集 II](topic1_easy/T350_intersect/)
 13. [836. 矩形重叠](topic1_easy/T836_isRectangleOverlap/)
+
 ### [链表](topic3_List/)
 **[思路汇总](topic3_List/)**
 1. [在未排序链表中，怎样移除重复的节点?](topic3_List/T_removeRepeat/)
@@ -54,6 +57,7 @@
 8. [234. 回文链表](topic3_List/T234_isPalindrome/)
 9. [328. 奇偶链表](topic3_List/T328_oddEvenList/)
 10. [23. 合并K个排序链表](topic3_List/T23_mergeKLists/)
+11. [25. K 个一组翻转链表](topic3_List/T25_reverseKGroup/)
 ### [动态规划](topic4_dynamic_planning_study/)
 **[思路汇总](topic4_dynamic_planning_study/)**
 #### 只需借鉴 上一步 （定义变量类型）
@@ -119,6 +123,7 @@
 2. [454. 四数相加 II](topic9_hash_table/T454_forth_sum/)
 3. [面试题56 - I. 数组中数字出现的次数](topic1_easy/MST56_1_singleNumbers/)
 4. [141. 环形链表](topic9_hash_table/T141_hasCycle/)
+5. [560. 和为K的子数组](topic9_hash_table/T560_subarraySum/)
 ### [队列](topic10_queue/)
 **[思路汇总](topic10_queue/)**
 1. [239. 滑动窗口最大值](topic10_queue/T239_maxSlidingWindow/)

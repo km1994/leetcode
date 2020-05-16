@@ -21,34 +21,6 @@
 
 
 class Solution:
-    def __init__(self):
-        pass
-
-    def myPow1(self, x, n):
-        if x < -100 or x > 100 or n < -4296967296 or n > 4296967295:
-            return
-
-        res = 1
-        if n > 0:
-            for i in range(0,n):
-                res = res * x
-        elif n < 0:
-            for i in range(0,-n):
-                res = res / x
-
-        return res
-
-    def myPow2(self,x,n):
-        if x < -100 or x > 100 or n < -4296967296 or n > 4296967295:
-            return
-        if not n:
-            return 1
-        if n < 0:  # n为负数，倒数
-            return 1 / self.myPow(x, -n)
-        if n % 2:  # n为奇数，n-1
-            return x * self.myPow(x, n - 1)
-        return self.myPow(x * x, n / 2)  # n为偶数，直接n/2
-
 
     def myPow(self,x,n):
         if not n:   # x 的 0 次方
