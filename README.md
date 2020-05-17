@@ -29,6 +29,8 @@
 3. [136. 只出现一次的数字](topic1_easy/T136_ingleNumber/)
 4. [240. 搜索二维矩阵 II](topic1_easy/T240_searchMatrix2/)
 5. [50. Pow(x, n)](topic1_easy/T50_myPow/)【[leetcode]](https://leetcode-cn.com/problems/powx-n/)】 【简单】
+6. [118. 杨辉三角 I](topic1_easy/T118_generate/)【[leetcode]](https://leetcode-cn.com/problems/pascals-triangle/)】 【简单】
+7. [119. 杨辉三角 II](topic1_easy/T119_getRow/)【[leetcode]](https://leetcode-cn.com/problems/pascals-triangle-ii/)】 【简单】
 
 ### [数组](topic2_arr/)
 1. [350. 两个数组的交集 II](topic1_easy/T_select_max_min/)
@@ -44,6 +46,8 @@
 11. [349. 两个数组的交集](topic1_easy/T349_intersection/)
 12. [350. 两个数组的交集 II](topic1_easy/T350_intersect/)
 13. [836. 矩形重叠](topic1_easy/T836_isRectangleOverlap/)
+14. [118. 杨辉三角](topic1_easy/T118_generate/)
+15. [119. 杨辉三角 II](topic1_easy/T119_getRow/)
 
 ### [链表](topic3_List/)
 **[思路汇总](topic3_List/)**
@@ -147,6 +151,7 @@
 7. [980. 不同路径 III](topic12_backtrack/T980_uniquePathsIII/)
 8. [98. 验证二叉搜索树](topic12_backtrack/T98_isValidBST/) 【中等】
 9. [140. 单词拆分 II](topic12_backtrack/T140_wordBreak/) 【困难】
+10. [210. 课程表 II](topic12_backtrack/T210_findOrder/) 【[leetcode](https://leetcode-cn.com/problems/course-schedule-ii/)】【中等】
 ### [树](topic13_tree/)
 **[思路汇总](topic13_tree/)**
 1. [树构建](topic13_tree/T_tree)
@@ -178,6 +183,7 @@
 **[思路汇总](topic19_divide_and_conquer/)**
 ### [分支限界法](topic20_branch_and_bound_method/)
 **[思路汇总](topic20_branch_and_bound_method/)**
+1. [210. 课程表 II](topic12_backtrack/T210_findOrder/) 【[leetcode](https://leetcode-cn.com/problems/course-schedule-ii/)】【中等】
 ### [位运算](topic21_Bit_operation/)
 **[思路汇总](topic21_Bit_operation/)**
 1. [136. 只出现一次的数字](topic17_greedy/T136_ingleNumber/)
