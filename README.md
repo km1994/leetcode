@@ -102,6 +102,8 @@
 3. [242. 有效的字母异位词](topic5_string/T242_isAnagram/)
 4. [387. 字符串中的第一个唯一字符](topic5_string/T387_firstUniqChar/)
 5. [466. 统计重复个数](topic5_string/T466_getMaxRepetitions/)
+6. [1371. 每个元音包含偶数次的最长子字符串](topic5_string/T1371_findTheLongestSubstring/)
+7. [3. 无重复字符的最长子串](topic5_string/T3_lengthOfLongestSubstring/)
 ### [栈](topic6_stack/)
 **[思路汇总](topic6_stack/)**
 1. [150. 逆波兰表达式求值](topic6_stack/T387_firstUniqChar/)
