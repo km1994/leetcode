@@ -122,7 +122,8 @@
 6. [11. 盛最多水的容器](topic8_binary_search/T11_maxArea/)
 7. [面试题 08.11. 硬币](topic8_binary_search/T1248_numberOfSubarrays/)
 8. [神奇数字](topic8_binary_search/NK_change/) 【[牛客网](https://www.nowcoder.com/practice/01e7bedf5dd2421aa6f879fd8055e51d?tpId=110&tqId=33453&tPage=1&rp=1&ru=/ta/job-code&qru=/ta/job-code/question-ranking)】 【难度：1】
-9. [69. x 的平方根](topic8_binary_search/T69_mySqrt/) 【[leetcode]](https://leetcode-cn.com/problems/sqrtx/)】 【简单】
+9. [69. x 的平方根](topic8_binary_search/T69_mySqrt/) 【[leetcode]](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)】 【困难】
+10. [4. 寻找两个正序数组的中位数](topic8_binary_search/T4_findMedianSortedArrays/) 【[leetcode]](https://leetcode-cn.com/problems/sqrtx/)】 【简单】
 ### [哈希表](topic9_hash_table/)
 **[思路汇总](topic9_hash_table/)**
 1. [171. Excel表列序号](topic9_hash_table/T171_titleToNumber/)
@@ -130,6 +131,8 @@
 3. [面试题56 - I. 数组中数字出现的次数](topic1_easy/MST56_1_singleNumbers/)
 4. [141. 环形链表](topic9_hash_table/T141_hasCycle/)
 5. [560. 和为K的子数组](topic9_hash_table/T560_subarraySum/)
+6. [1. 两数之和](topic9_hash_table/T1_twoSum/)
+7. [1010. 总持续时间可被 60 整除的歌曲](topic9_hash_table/T1010_numPairsDivisibleBy60/) 【[leetcode](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/submissions/)】【简单】
 ### [队列](topic10_queue/)
 **[思路汇总](topic10_queue/)**
 1. [239. 滑动窗口最大值](topic10_queue/T239_maxSlidingWindow/)
@@ -188,7 +191,11 @@
 1. [210. 课程表 II](topic12_backtrack/T210_findOrder/) 【[leetcode](https://leetcode-cn.com/problems/course-schedule-ii/)】【中等】
 ### [位运算](topic21_Bit_operation/)
 **[思路汇总](topic21_Bit_operation/)**
-1. [136. 只出现一次的数字](topic17_greedy/T136_ingleNumber/)
+1. [136. 只出现一次的数字](topic21_Bit_operation/T136_ingleNumber/)
+### [滑动窗口](topic21_Bit_operation/)
+**[思路汇总](topic22_move_window/)**
+1. [76. 最小覆盖子串](topic22_move_window/T76_minWindow/)
+
 ### [面试题](interview/)
 1. [美团 2020 年春招](interview/meituan_interview/)
 2. [携程 2020 年春招](interview/ctrip_interview/)
