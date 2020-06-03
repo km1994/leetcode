@@ -97,6 +97,7 @@
 6. [面试题10- I. 斐波那契数列](topic4_dynamic_planning_study/T200322_ib_study/)
 7. [62. 不同路径](topic4_dynamic_planning_study/T200323_uniquePathsWithObstacles/)
 8. [63. 不同路径 II](topic4_dynamic_planning_study/T200323_uniquePaths/)
+9. [837. 新21点](topic4_dynamic_planning_study/T873_new21Game/) 【中等】 【[leetcode](https://leetcode-cn.com/problems/new-21-game/)】
 ### [字符串](topic5_string/)
 **[思路汇总](topic5_string/)**
 1. [5. 最长回文子串](topic5_string/T5_longestPalindrome/)
