@@ -49,6 +49,7 @@
 14. [118. 杨辉三角](topic2_arr/T118_generate/)
 15. [119. 杨辉三角 II](topic2_arr/T119_getRow/)
 16. [1431. 拥有最多糖果的孩子](topic2_arr/T1431_kidsWithCandies/) 【简单】【[leetcode](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)】
+17. [面试题29. 顺时针打印矩阵](topic2_arr/MS29_spiralOrder/) 【简单】【[leetcode](hhttps://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)】
 
 ### [链表](topic3_List/)
 **[思路汇总](topic3_List/)**
