@@ -196,13 +196,17 @@
 ### [分支限界法](topic20_branch_and_bound_method/)
 **[思路汇总](topic20_branch_and_bound_method/)**
 1. [210. 课程表 II](topic12_backtrack/T210_findOrder/) 【[leetcode](https://leetcode-cn.com/problems/course-schedule-ii/)】【中等】
+2. [126. 单词接龙 II](topic12_backtrack/T126_ffindLadders/) 【[leetcode](https://leetcode-cn.com/problems/word-ladder-ii/submissions/)】【困难】
 ### [位运算](topic21_Bit_operation/)
 **[思路汇总](topic21_Bit_operation/)**
 1. [136. 只出现一次的数字](topic21_Bit_operation/T136_ingleNumber/)
-### [滑动窗口](topic21_Bit_operation/)
+### [滑动窗口](topic22_move_window/)
 **[思路汇总](topic22_move_window/)**
 1. [76. 最小覆盖子串](topic22_move_window/T76_minWindow/)
-
+### [数学题](topic23_math/)
+**[思路汇总](topic23_math/)**
+1. [976. 三角形的最大周长](topic23_math/T976_largestPerimeter/) 【简单】
+2. [990. 等式方程的可满足性](topic23_math/T990_UnionFind/) 【中等】
 ### [面试题](interview/)
 1. [美团 2020 年春招](interview/meituan_interview/)
 2. [携程 2020 年春招](interview/ctrip_interview/)
