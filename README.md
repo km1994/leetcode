@@ -72,6 +72,7 @@
 ##### 类型题介绍
 1. [53. 最大子序和](topic4_dynamic_planning_study/T53_maxSubArray/) 【简单】
 2. [198. 打家劫舍](topic4_dynamic_planning_study/T198_rob/) 【[leetcode](https://leetcode-cn.com/problems/house-robber/)】 【简单】
+3. [面试题46. 把数字翻译成字符串](topic4_dynamic_planning_study/MS46_translateNum/) 【[leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)】 【中等】
 #### 需要借鉴之前步骤（定义数组类型）
 ##### 介绍
 此类题型的特点在于，当前位置的取值，不仅与前一个位置相关，而且与其他位置相关， 所以需定义一个长度为 len+1 的向量保存之前所计算得到的值；
@@ -114,6 +115,7 @@
 2. [155. 最小栈](topic6_stack/T155_MinStack/)
 3. [394. 字符串解码](topic6_stack/T394_decodeString/) 【[leetcode](https://leetcode-cn.com/problems/decode-string/)】【中等】
 4. [394. 字符串解码](topic6_stack/T84_ilargestRectangleArea/) 【[leetcode](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)】【中等】
+5. [739. 每日温度](topic6_stack/T739_dailyTemperatures/)【[leetcode](https://leetcode-cn.com/problems/daily-temperatures/)】【中等】
 ### [排序](topic7_sorted/)
 **[思路汇总](topic7_sorted/)**
 1. [插入排序](topic7_sorted/T_insert_sorted/)
