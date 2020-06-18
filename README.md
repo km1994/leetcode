@@ -49,7 +49,8 @@
 14. [118. 杨辉三角](topic2_arr/T118_generate/)
 15. [119. 杨辉三角 II](topic2_arr/T119_getRow/)
 16. [1431. 拥有最多糖果的孩子](topic2_arr/T1431_kidsWithCandies/) 【简单】【[leetcode](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)】
-17. [面试题29. 顺时针打印矩阵](topic2_arr/MS29_spiralOrder/) 【简单】【[leetcode](hhttps://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)】
+17. [面试题29. 顺时针打印矩阵](topic2_arr/MS29_spiralOrder/) 【简单】【[leetcode](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)】
+18. [14. 最长公共前缀](topic2_arr/T14_longestCommonPrefix/) 【简单】【[leetcode](https://leetcode-cn.com/problems/longest-common-prefix/)】
 
 ### [链表](topic3_List/)
 **[思路汇总](topic3_List/)**
@@ -80,6 +81,7 @@
 1. [300. 最长上升子序列](topic4_dynamic_planning_study/T300_lengthOfLIS/) 【中等】
 2. [139. 单词拆分](topic4_dynamic_planning_study/T139_wordBreak/) 【中等】
 3. [983. 最低票价](topic4_dynamic_planning_study/T983_mincostTickets/) 【中等】
+4. [70. 爬楼梯](topic4_dynamic_planning_study/T70_climbStairs/) 【简单】
 #### 需要借鉴之前步骤（定义矩阵类型）
 ##### 介绍
 此类题型的特点在于，当前位置的取值，不仅与前一个位置相关，而且与其他位置相关， 而且该问题需要 上升 到 矩阵层次上考虑，所以需定义一个矩阵保存之前所计算得到的值；
@@ -133,6 +135,7 @@
 8. [神奇数字](topic8_binary_search/NK_change/) 【[牛客网](https://www.nowcoder.com/practice/01e7bedf5dd2421aa6f879fd8055e51d?tpId=110&tqId=33453&tPage=1&rp=1&ru=/ta/job-code&qru=/ta/job-code/question-ranking)】 【难度：1】
 9. [69. x 的平方根](topic8_binary_search/T69_mySqrt/) 【[leetcode]](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)】 【困难】
 10. [4. 寻找两个正序数组的中位数](topic8_binary_search/T4_findMedianSortedArrays/) 【[leetcode]](https://leetcode-cn.com/problems/sqrtx/)】 【简单】
+11. [1300. 转变数组后最接近目标值的数组和](topic8_binary_search/T1300_findBestValue/) 【[leetcode]](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/)】 【中等】
 ### [哈希表](topic9_hash_table/)
 **[思路汇总](topic9_hash_table/)**
 1. [171. Excel表列序号](topic9_hash_table/T171_titleToNumber/)
@@ -166,6 +169,7 @@
 8. [98. 验证二叉搜索树](topic12_backtrack/T98_isValidBST/) 【中等】
 9. [140. 单词拆分 II](topic12_backtrack/T140_wordBreak/) 【困难】
 10. [210. 课程表 II](topic12_backtrack/T210_findOrder/) 【[leetcode](https://leetcode-cn.com/problems/course-schedule-ii/)】【中等】
+11. [1028. 从先序遍历还原二叉树](topic12_backtrack/T1028_recoverFromPreorder/) 【[leetcode](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)】【困难】
 ### [树](topic13_tree/)
 **[思路汇总](topic13_tree/)**
 1. [树构建](topic13_tree/T_tree)
