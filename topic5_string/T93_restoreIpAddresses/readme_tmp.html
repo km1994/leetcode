@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>readme.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="93-%E5%A4%8D%E5%8E%9Fip%E5%9C%B0%E5%9D%80">93. 复原IP地址</h1>
+<p>给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。</p>
+<p>有效的 IP 地址 正好由四个整数（每个整数位于 0 到 255 之间组成，且不能含有前导 0），整数之间用 '.' 分隔。</p>
+<p>例如：&quot;0.1.2.201&quot; 和 &quot;192.168.1.1&quot; 是 有效的 IP 地址，但是 &quot;0.011.255.245&quot;、&quot;192.168.1.312&quot; 和 &quot;192.168@1.1&quot; 是 无效的 IP 地址。</p>
+<p>示例 1：</p>
+<pre><code>输入：s = &quot;25525511135&quot;
+输出：[&quot;255.255.11.135&quot;,&quot;255.255.111.35&quot;]
+</code></pre>
+<p>示例 2：</p>
+<pre><code>输入：s = &quot;0000&quot;
+输出：[&quot;0.0.0.0&quot;]
+</code></pre>
+<p>示例 3：</p>
+<pre><code>输入：s = &quot;1111&quot;
+输出：[&quot;1.1.1.1&quot;]
+</code></pre>
+<p>示例 4：</p>
+<pre><code>输入：s = &quot;010010&quot;
+输出：[&quot;0.10.0.10&quot;,&quot;0.100.1.0&quot;]
+</code></pre>
+<p>示例 5：</p>
+<pre><code>输入：s = &quot;101023&quot;
+输出：[&quot;1.0.10.23&quot;,&quot;1.0.102.3&quot;,&quot;10.1.0.23&quot;,&quot;10.10.2.3&quot;,&quot;101.0.2.3&quot;]
+</code></pre>
+<h2 id="%E6%80%9D%E8%B7%AF%E4%BB%8B%E7%BB%8D">思路介绍</h2>
+<h3 id="%E6%96%B9%E6%B3%95%E4%B8%80-%E5%9B%9E%E6%BA%AF%E6%B3%95">方法一 回溯法</h3>
+<h4 id="1-%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86">1. 背景知识</h4>
+<ul>
+<li>有效的 IP 地址 的条件
+<ul>
+<li>由<strong>四个整数</strong>（<strong>每个整数位于 0 到 255 之间</strong>组成，且<strong>不能含有前导 0</strong>）；</li>
+<li><strong>整数之间用 '.' 分隔</strong>。</li>
+</ul>
+</li>
+<li>举例：
+<ul>
+<li>0.0.0.0 - 255.255.255.255</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-%E5%9B%9B%E4%B8%AA%E5%85%B3%E9%94%AE%E7%82%B9">2. 四个关键点</h4>
+<ul>
+<li>
+<p>剪枝:</p>
+<ul>
+<li>条件 1. 每个整数位于 0 到 255 之间；（error : 255.555 ）</li>
+<li>条件 2. 不能含有前导 0；（error : 255.05 ）</li>
+<li>条件 3. 段位里有非正整数字符不合法；（error : 255.0@ ）</li>
+</ul>
+</li>
+<li>
+<p>结果：</p>
+<ul>
+<li>整数之间用 '.' 分隔；(255.255.255.255)</li>
+<li>四个整数 组成； (255.255.255.255)</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-%E8%B7%AF%E6%BC%94">3. 路演</h4>
+<p><img src="file:///e:/leetcode/topic5_string/T93_restoreIpAddresses/img/微信截图_20201212204829.png" alt=""></p>
+<p><a href="https://shimo.im/boards/QQCrGd6vrC9rtqkP">画板地址</a></p>
+<h4 id="4-%E5%9B%9E%E6%BA%AF-%E5%87%BD%E6%95%B0-%E5%AE%9A%E4%B9%89">4. 回溯 函数 定义</h4>
+<pre class="hljs"><code><div>    def dfs(self,s,s_len,split_times,begin,path,res):
+        pass
+</div></code></pre>
+<ol>
+<li>s：字符串；</li>
+<li>s_len : 字符串长度，用于 判断终止条件；</li>
+<li>split_times：分割次数，用于 判断终止条件；</li>
+<li>begin：每轮的开始位置，需要从 begin 开始，选取 1位、2位、3位数；</li>
+<li>path：当前路径；</li>
+<li>res：最终返回结果</li>
+</ol>
+<h4 id="5-%E6%80%9D%E8%B7%AF">5. 思路</h4>
+<ol>
+<li>判断字符串 长度 是否 在 [5,12]，如果 字符串 长度 不在这个区间，可以直接 return;</li>
+<li>回溯法：
+<ol>
+<li>判断终止条件：指针begin 遍历完字符串？
+<ol>
+<li>是，判断是否为可行域：分割次数为4？
+<ol>
+<li>添加到结果</li>
+</ol>
+</li>
+<li>否
+<ol>
+<li>剪枝操作：判断 剩余长度 是否 在 [(4-split_times),3*(4-split_times)]</li>
+<li>遍历所有可能：因为 每一个地址单元 长度 在 [0,255]，所以 每 1-3 为一个 单元：
+<ol>
+<li>验证 是否 符合要求： 约束条件 2-3；
+<ol>
+<li>当前值 添加到 当前路径；</li>
+<li>回溯；</li>
+<li>弹出 最上层 值；</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h4 id="6-%E4%BB%A3%E7%A0%81%E4%BB%8B%E7%BB%8D">6. 代码介绍</h4>
+<pre class="hljs"><code><div>    class Solution:
+        def restoreIpAddresses(self, s: str) -&gt; List[str]:
+            s_len = len(s)
+            res = []
+            # step 1：判断字符串 长度 是否 在 [5,12]
+            if s_len&lt;4 or s_len &gt;12:
+                return res 
+            # step 2：回溯法
+            path = []
+            self.dfs(s,s_len,0,0,path,res)
+            return res
+        # 功能：回溯法
+        def dfs(self,s,s_len,split_times,begin,path,res):
+            # begin 指针 移动 到 尾部
+            if begin==s_len:
+                # 判断 分割次数 是否 等于 4
+                if split_times==4:
+                    res.append(&quot;.&quot;.join(path))
+                return 
+            # 判断 剩余长度 是否 在 [(4-split_times),3*(4-split_times)]
+            if s_len-begin&lt;(4-split_times) or s_len-begin&gt;3*(4-split_times):
+                return
+            # 因为 每一个地址单元 长度 在 [0,255]，所以 每 1-3 为一个 单元
+            for i in range(3):
+                if begin+i&gt;=s_len:
+                    break
+                now_seg = self.valid(begin,begin+i,s)
+                if now_seg!=-1:
+                    path.append(str(now_seg))
+                    self.dfs(s,s_len,split_times+1,begin+i+1,path,res)
+                    path.pop()
+        # 功能：验证 字符串 是否合格 函数，即 [0,255] 内
+        def valid(self, left,right,s):
+            num = 0
+            for i in range(left,right+1):
+                if left!=right and s[left]==&quot;0&quot;:
+                    return -1
+                num = num*10+int(s[i])
+                if num&gt;255:
+                    return -1
+            return num
+</div></code></pre>
+<h4 id="7-%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%A1%E7%AE%97">7. 复杂度计算</h4>
+<ul>
+<li>时间复杂度：$O(3^(seg_count)*|s|)$。因为 IP 地址每一段的位数都不超过3，所以只有三种可能【1位、2位、3位】，故递归的时间复杂度为 $O(3^(seg_count))$；对于 每个可行 IP 地址，我们需要 O(|s|) 的时间将其加入 结果 res 中；</li>
+<li>空间复杂度：$O(seg_count)$。由于这个问题限制在有效 IP 段内，树最多 4 层，保存的结果集也是有限个，基于一般性，需要记录递归过程的信息，这个空间大小是递归树的高度 h。</li>
+</ul>
+<blockquote>
+<p>注：seg_count 为 段数，这里默认为 4</p>
+</blockquote>
+
+</body>
+</html>

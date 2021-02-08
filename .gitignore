@@ -10,6 +10,8 @@
 .vscode/
 .bin/
 bin/
+version/
+**/version/
 
 # .tfstate files
 *.tfstate

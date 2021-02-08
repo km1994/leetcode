@@ -26,12 +26,55 @@
 
 ## 思路介绍
 
+### 方法一：递归法+头插法进行翻转
 #### 题目解析
-
-
 
 #### 思路
 
+- step 1：变量定义
+- step 2：计数，判断是否有 k 个节点可供翻转
+- step 3：若 存在 k 个节点，则可以翻转
+    - step 4：利用 头插法 翻转 k 个 节点
+
+#### 代码
+
+```s
+class Solution:
+    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
+        '''
+            方法：递归法+头插法进行翻转
+            思路：
+                step 1：变量定义
+                step 2：计数，判断是否有 k 个节点可供翻转
+                step 3：若 存在 k 个节点，则可以翻转
+                    step 4：利用 头插法 翻转 k 个 节点
+        '''
+        # step 1：变量定义
+        cur = head
+        check = head
+        canProceed = 0
+        count = 0
+        prev = None
+        p = None
+        # step 2：计数，判断是否有 k 个节点可供翻转
+        while canProceed < k and check is not None:
+            check = check.next
+            canProceed = canProceed + 1
+        # step 3：若 存在 k 个节点，则可以翻转
+        if canProceed == k:
+            # step 4：利用 头插法 翻转 k 个 节点
+            while count < k and cur is not None:
+                p =cur.next
+                cur.next = prev
+                prev = cur
+                cur = p
+                count = count + 1
+            if p is not None:
+                head.next = self.reverseKGroup(p,k)
+            return prev
+        else:
+            return head
+```
 
 
 #### 复杂度计算

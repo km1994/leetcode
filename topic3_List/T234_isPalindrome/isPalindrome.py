@@ -13,7 +13,7 @@
 
     请判断一个链表是否为回文链表。
 
-      示例 1:
+      示例 1:	
 
         输入: 1->2
         输出: false
@@ -24,6 +24,7 @@
         输出: true
 
 '''
+import math
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -52,87 +53,112 @@ def displayList(head):
 
 
 class Solution:
+	def isPalindrome(self, head: ListNode) -> bool:
+		head_len = 0
+		p = head
+		while p:
+			head_len = head_len+1
+			p = p.next
+		mid = math.floor(head_len/2)
+		qHead = ListNode(0)
+		p = head
+		q = qHead
+		while mid>0:
+			tmp = q.next
+			q.next = p
+			p = p.next
+			q.next.next = tmp
+			mid = mid - 1
+		if head_len%2==1:
+			p = p.next
+		q = qHead.next
+		while p and q:
+			if p.val != q.val:
+				return False
+			p=p.next
+			q=q.next
+		return True
 
-  def isPalindrome1(self, head):
+#   def isPalindrome1(self, head):
     
-    pre_head = ListNode(-1)
-    pre_head.next = head
-    head = pre_head
+#     pre_head = ListNode(-1)
+#     pre_head.next = head
+#     head = pre_head
 
-    list_len = 0
-    p = head.next
-    while p:
-      list_len = list_len + 1
-      p = p.next
+#     list_len = 0
+#     p = head.next
+#     while p:
+#       list_len = list_len + 1
+#       p = p.next
     
-    flag = True
-    temp_head = ListNode(-1)
-    tail = temp_head.next 
-    p = head.next
-    if list_len%2  == 1:
-      print("--1--")
-      for i in range(0,int(list_len/2)):
-        temp_head.next = p
-        p = p.next
-        temp_head.next.next = tail
-        tail = temp_head.next
+#     flag = True
+#     temp_head = ListNode(-1)
+#     tail = temp_head.next 
+#     p = head.next
+#     if list_len%2  == 1:
+#       print("--1--")
+#       for i in range(0,int(list_len/2)):
+#         temp_head.next = p
+#         p = p.next
+#         temp_head.next.next = tail
+#         tail = temp_head.next
       
-      p = p.next
-      while p and tail and p.val == tail.val:
-        p = p.next
-        tail = tail.next
+#       p = p.next
+#       while p and tail and p.val == tail.val:
+#         p = p.next
+#         tail = tail.next
       
-      if p or tail:
-        return False
-      else:
-        return True
-    else:
-      print("--2--")
-      for i in range(0,int(list_len/2)):
-        temp_head.next = p
-        p = p.next
-        temp_head.next.next = tail
-        tail = temp_head.next
+#       if p or tail:
+#         return False
+#       else:
+#         return True
+#     else:
+#       print("--2--")
+#       for i in range(0,int(list_len/2)):
+#         temp_head.next = p
+#         p = p.next
+#         temp_head.next.next = tail
+#         tail = temp_head.next
 
-      while p and tail and p.val == tail.val:
-        p = p.next
-        tail = tail.next
+#       while p and tail and p.val == tail.val:
+#         p = p.next
+#         tail = tail.next
       
-      if p or tail:
-        return False
-      else:
-        return True
+#       if p or tail:
+#         return False
+#       else:
+#         return True
   
-  def isPalindrome(self, head):
-      list_len = 0
-      p = head
-      while p:
-          list_len = list_len + 1
-          p = p.next
+#   def isPalindrome2(self, head):
+#       list_len = 0
+#       p = head
+#       while p:
+#           list_len = list_len + 1
+#           p = p.next
       
-      temp_head = ListNode(-1)
-      tail = temp_head.next 
-      p = head
-      for i in range(0,int(list_len/2)):
-          temp_head.next = p
-          p = p.next
-          temp_head.next.next = tail
-          tail = temp_head.next
+#       temp_head = ListNode(-1)
+#       tail = temp_head.next 
+#       p = head
+#       for i in range(0,int(list_len/2)):
+#           temp_head.next = p
+#           p = p.next
+#           temp_head.next.next = tail
+#           tail = temp_head.next
 
-      p = p.next if list_len%2  == 1 else p
+#       p = p.next if list_len%2  == 1 else p
       
-      while p and tail and p.val == tail.val:
-          p = p.next
-          tail = tail.next
+#       while p and tail and p.val == tail.val:
+#           p = p.next
+#           tail = tail.next
 
-      return False if p or tail else True
+#       return False if p or tail else True
     
 
   
 if __name__ == "__main__":
 
     print("--------1-------")
-    arr = [1,2,2,1]
+    arr = [1,2]
     head = arr2list(arr)
     displayList(head.next)
     solution = Solution()
