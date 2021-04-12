@@ -96,6 +96,7 @@
 16. [1431. 拥有最多糖果的孩子](topic2_arr/T1431_kidsWithCandies/) 【简单】【[leetcode](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)】
 17. [面试题29. 顺时针打印矩阵](topic2_arr/MS29_spiralOrder/) 【简单】【[leetcode](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)】
 18. [14. 最长公共前缀](topic2_arr/T14_longestCommonPrefix/) 【简单】【[leetcode](https://leetcode-cn.com/problems/longest-common-prefix/)】
+19. [剑指 Offer 04. 二维数组中的查找](topic2_arr/jz04_findNumberIn2DArray/) 【中等】【[leetcode](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)】
 ### [链表](topic3_List/)
 **[思路汇总](topic3_List/)**
 1. [在未排序链表中，怎样移除重复的节点?](topic3_List/T_removeRepeat/)
@@ -115,6 +116,8 @@
 15. [24. 两两交换链表中的节点](topic3_List/T24_swapPairs/) 【简单】 【[leetcode](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)】
 16. [143. 重排链表](topic3_List/T143_reorderList/) 【中等】 【[leetcode](https://leetcode-cn.com/problems/reorder-list/)】
 17. [剑指 Offer 22. 链表中倒数第k个节点](topic3_List/Offer22_getKthFromEnd/) 【简单】 【[leetcode](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)】
+18. [面试题 02.03. 删除中间节点](topic3_List/ms0203_deleteNode/) 【简单】 【[leetcode](https://leetcode-cn.com/problems/delete-middle-node-lcci/)】
+19. [19. 删除链表的倒数第 N 个结点](topic3_List/T19_removeNthFromEnd/) 【简单】 【[leetcode](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)】
 ### [动态规划](topic4_dynamic_planning_study/)
 **[思路汇总](topic4_dynamic_planning_study/)**
 #### 只需借鉴 上一步 （定义变量类型）
@@ -291,9 +294,13 @@
 6. [287. 寻找重复数](topic16_speed_pointer/T287_findDuplicate/) 【中等】 【[leetcode](https://leetcode-cn.com/problems/find-the-duplicate-number/)】
 ### [贪心算法](topic17_greedy/)
 **[思路汇总](topic17_greedy/)**
-1. [45. 跳跃游戏 II](topic17_greedy/T45_jump/)
-2. [680. 验证回文字符串 Ⅱ](topic17_greedy/T680_validPalindrome/)
-3. [763. 划分字母区间](topic17_greedy/T763_partitionLabels/)【[leetcode](https://leetcode-cn.com/problems/partition-labels/)】
+1. [1221. 分割平衡字符串](topic17_greedy/T1221_balancedStringSplit/)【[leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)】【简单】
+2. [45. 跳跃游戏 II](topic17_greedy/T45_jump/)
+3. [680. 验证回文字符串 Ⅱ](topic17_greedy/T680_validPalindrome/)
+4. [763. 划分字母区间](topic17_greedy/T763_partitionLabels/)【[leetcode](https://leetcode-cn.com/problems/partition-labels/)】
+5. [406. 根据身高重建队列](topic17_greedy/T406_reconstructQueue/)【[leetcode](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)】【中等】
+6. [134. 加油站](topic17_greedy/T134_canCompleteCircuit/)【[leetcode](https://leetcode-cn.com/problems/gas-station/)】【中等】
+7.  [135. 分发糖果](topic17_greedy/T134_canCompleteCircuit/)【[leetcode](https://leetcode-cn.com/problems/candy/)】【困难】
 ### [递归](topic18_recursive/)
 **[思路汇总](topic18_recursive/)**
 ### [分治](topic19_divide_and_conquer/)
