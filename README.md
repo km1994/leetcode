@@ -42,6 +42,7 @@
     - [位运算](#位运算)
     - [滑动窗口](#滑动窗口)
     - [数学题](#数学题)
+    - [三指针](#三指针)
     - [面试题](#面试题)
   - [参考](#参考)
 
@@ -191,6 +192,8 @@
 1. [插入排序](topic7_sorted/T_insert_sorted/)
 2. [快速排序](topic7_sorted/T_quick_sort/)
 3. [376. 摆动序列](topic7_sorted/T376_wiggleMaxLength/)
+4. [剑指 Offer 45. 把数组排成最小的数](topic7_sorted/jz45_minNumber/) 【中等】[leetcode](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+5. [75. 颜色分类](topic7_sorted/T75_sortColors/) 【中等】[leetcode](https://leetcode-cn.com/problems/sort-colors/)
 ### [二分查找](topic8_binary_search/)
 **[思路汇总](topic8_binary_search/)**
 1. [15. 三数之和](topic8_binary_search/T15_three_sum/)
@@ -329,6 +332,8 @@
 5. [73. 矩阵置零](topic23_math/T73_setZeroes/) 【[leetcode](https://leetcode-cn.com/problems/set-matrix-zeroes/)】 【简单】
 6. [31. 下一个排列](topic23_math/T31_nextPermutation/) 【[leetcode](https://leetcode-cn.com/problems/next-permutation/)】 【中等】
 7. [LCP 17. 速算机器人](topic23_math/LCP17_calculate/) 【[leetcode](https://leetcode-cn.com/problems/nGK0Fy/)】 【简单】
+### [三指针](topic24_three_pointer/)
+1. [75. 颜色分类](topic7_sorted/T75_sortColors/) 【中等】[leetcode](https://leetcode-cn.com/problems/sort-colors/)
 ### [面试题](interview/)
 1. [美团 2020 年春招](interview/meituan_interview/)
 2. [携程 2020 年春招](interview/ctrip_interview/)
