@@ -43,6 +43,7 @@
     - [滑动窗口](#滑动窗口)
     - [数学题](#数学题)
     - [三指针](#三指针)
+    - [左右指针](#左右指针)
     - [面试题](#面试题)
   - [参考](#参考)
 
@@ -334,6 +335,8 @@
 7. [LCP 17. 速算机器人](topic23_math/LCP17_calculate/) 【[leetcode](https://leetcode-cn.com/problems/nGK0Fy/)】 【简单】
 ### [三指针](topic24_three_pointer/)
 1. [75. 颜色分类](topic7_sorted/T75_sortColors/) 【中等】[leetcode](https://leetcode-cn.com/problems/sort-colors/)
+### [左右指针](topic25_left_right_pointer/)
+2. [面试题 16.16. 部分排序](topic25_left_right_pointer/MS1616_subSort1/) 【中等】[leetcode](https://leetcode-cn.com/problems/sub-sort-lcci/)
 ### [面试题](interview/)
 1. [美团 2020 年春招](interview/meituan_interview/)
 2. [携程 2020 年春招](interview/ctrip_interview/)
