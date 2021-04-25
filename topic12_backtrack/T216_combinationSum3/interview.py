@@ -17,12 +17,33 @@
 
 '''
 class Solution:
-    def combinationSum3(self, k, n):
+    def combinationSum3(self, k: int, n: int) -> List[List[int]]:
+        '''
+            方法：回溯法
+        '''
+        res = []
+        self.dfs(k,n,1,[],res)
+        return res
+
+    def dfs(self,k,target,begin,path,res):
+        # step 1：剪枝，值 超过 [1,9]
+        if begin>10:
+            return 
+        # step 2：满足要求
+        if target==0 and len(path)==k:
+            res.append(path[:])
+            return 
+        for index in range(begin,10):
+            if target>=index and len(path)<k:
+                self.dfs(k,target-index,index+1,path+[index],res)
+
+
+    def combinationSum31(self, k: int, n: int) -> List[List[int]]:
         def dfs(k,target,index,path,res):
             if index > 10:
                 return
             if target == 0 and path not in res and len(path)==k:
-                res.append(path)
+                res.append(path[:])
                 return
             for i in range(index,10):
                 new_target = target - i

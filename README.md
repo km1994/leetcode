@@ -264,6 +264,7 @@
 14. [216. 组合总和 III](topic12_backtrack/T216_combinationSum3/) 【[leetcode](https://leetcode-cn.com/problems/combination-sum-iii/)】【中等】
 15. [37. 解数独](topic12_backtrack/T37_solveSudoku/) 【[leetcode](https://leetcode-cn.com/problems/sudoku-solver/)】【困难】
 16. [93. 复原IP地址](topic12_backtrack/T93_restoreIpAddresses/) 【[leetcode](https://leetcode-cn.com/problems/restore-ip-addresses/)】【中等】
+17. [40. 组合总和 II](topic12_backtrack/T40_combinationSum2/) 【[leetcode](https://leetcode-cn.com/problems/combination-sum-ii/)】【中等】
 ### [树](topic13_tree/)
 **[思路汇总](topic13_tree/)**
 1. [树构建](topic13_tree/T_tree)

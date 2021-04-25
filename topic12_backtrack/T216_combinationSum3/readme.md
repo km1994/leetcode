@@ -39,22 +39,61 @@
 #### 代码
 
 ```python
-    class Solution:
-        def combinationSum3(self, k: int, n: int) -> List[List[int]]:
-            def dfs(k,target,index,path,res):
-                if index > 10:
-                    return
-                if target == 0 and path not in res and len(path)==k:
-                    res.append(path)
-                    return
-                for i in range(index,10):
-                    new_target = target - i
-                    if new_target >= 0 and len(path) < k:
-                        dfs(k,new_target,i+1,path+[i],res)
+class Solution:
+    def combinationSum3(self, k: int, n: int) -> List[List[int]]:
+        '''
+            方法：回溯法
+        '''
+        res = []
+        self.dfs(k,n,1,[],res)
+        return res
 
-            res = []
-            dfs(k,n,1,[],res)
-            return res
+    def dfs(self,k,target,begin,path,res):
+        # step 1：剪枝，值 超过 [1,9]
+        if begin>10:
+            return 
+        # step 2：满足要求
+        if target==0 and len(path)==k:
+            res.append(path[:])
+            return 
+        for index in range(begin,10):
+            if target>=index and len(path)<k:
+                self.dfs(k,target-index,index+1,path+[index],res)
+
+
+    def combinationSum31(self, k: int, n: int) -> List[List[int]]:
+        def dfs(k,target,index,path,res):
+            if index > 10:
+                return
+            if target == 0 and path not in res and len(path)==k:
+                res.append(path[:])
+                return
+            for i in range(index,10):
+                new_target = target - i
+                if new_target >= 0 and len(path) < k:
+                    dfs(k,new_target,i+1,path+[i],res)
+
+        res = []
+        dfs(k,n,1,[],res)
+        return res
+
+    
+if __name__ == "__main__":
+    
+    solution = Solution()
+    while 1:
+        str1 = input()
+        str2 = input()
+        if str1 != "" and str2 != "":
+            n = int(str1)
+            k = int(str2)
+            print(f"n:{n}")
+            print(f"k:{k}")
+
+            res = solution.combinationSum3(k,n)
+            print(res)
+        else:
+            break
 ```
 
 #### 复杂度计算
