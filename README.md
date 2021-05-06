@@ -134,6 +134,7 @@
 6. [剑指 Offer 42. 连续子数组的最大和](topic4_dynamic_planning_study/offer42_maxSubArray/) 【[leetcode](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)】 【简单】
 7. [面试题 08.01. 三步问题](topic4_dynamic_planning_study/M0801_waysToStep/) 【[leetcode](https://leetcode-cn.com/problems/three-steps-problem-lcci/)】 【简单】
 8. [70. 爬楼梯](topic4_dynamic_planning_study/T70_climbStairs/) 【简单】
+9. [面试题 16.17. 连续数列](topic4_dynamic_planning_study/ms1617_maxSubArray/) 【简单】【[leetcode](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)】
 #### 需要借鉴之前步骤（定义数组类型）
 ##### 介绍
 此类题型的特点在于，当前位置的取值，不仅与前一个位置相关，而且与其他位置相关， 所以需定义一个长度为 len+1 的向量保存之前所计算得到的值；
