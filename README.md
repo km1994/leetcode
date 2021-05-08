@@ -143,12 +143,14 @@
 2. [139. 单词拆分](topic4_dynamic_planning_study/T139_wordBreak/) 【中等】
 3. [983. 最低票价](topic4_dynamic_planning_study/T983_mincostTickets/) 【中等】
 4. [1024. 视频拼接](topic4_dynamic_planning_study/T1024_videoStitching/) 【中等】【[leetcode](https://leetcode-cn.com/problems/video-stitching/)】
+5. [64. 最小路径和](topic4_dynamic_planning_study/T64_minPathSum/) 【中等】【[leetcode](https://leetcode-cn.com/problems/minimum-path-sum/)】
 #### 需要借鉴之前步骤（定义矩阵类型）
 ##### 介绍
 此类题型的特点在于，当前位置的取值，不仅与前一个位置相关，而且与其他位置相关， 而且该问题需要 上升 到 矩阵层次上考虑，所以需定义一个矩阵保存之前所计算得到的值；
 ##### 类型题介绍
 1. [221. 最大正方形](topic4_dynamic_planning_study/T221_maximalSquare/) 【中等】
 2. [486. 预测赢家](topic4_dynamic_planning_study/T486_PredictTheWinner/) 【中等】
+3. [64. 最小路径和](topic4_dynamic_planning_study/T64_minPathSum/) 【中等】【[leetcode](https://leetcode-cn.com/problems/minimum-path-sum/)】
 ##### 0-1 背包问题
 此类题型的特点在于元素要么取，要么不取
 ##### 类型题介绍
