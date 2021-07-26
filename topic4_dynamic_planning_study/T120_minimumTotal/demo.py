@@ -25,19 +25,18 @@ class Solution:
                 dp[i][j] = min(dp[i-1][j-1],dp[i-1][j])+triangle[i][j]
             dp[i][i] = dp[i-1][i-1]+triangle[i][i]
         return min(dp[triangle_len-1])
-        
+    
 
 if __name__ == "__main__":
 
     solution = Solution()
-    print("---------------1----------------")
-    nums = [
-                [2],
-                [3,4],
-                [6,5,7],
-                [4,1,8,3]
-            ]
-    res = solution.minimumTotal(nums)  
-    print("res:{0}".format(res))
+    demo_nums = [
+        [[2],[3,4],[6,5,7],[4,1,8,3]],
+        [[1],[2,3]]
+    ]
+    for i in range(len(demo_nums)):
+        print(f"---------------{i}----------------")
+        res = solution.minimumTotal(demo_nums[i])  
+        print("res:{0}".format(res))
 
    
