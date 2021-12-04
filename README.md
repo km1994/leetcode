@@ -290,6 +290,7 @@
 17. [94. 二叉树的中序遍历](topic13_tree/T94_inorderTraversal) 【[简单](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)】
 18. [404. 左叶子之和](topic13_tree/T404_sumOfLeftLeaves) 【[简单](https://leetcode-cn.com/problems/sum-of-left-leaves/)】
 19. [剑指 Offer 07. 重建二叉树](topic13_tree/offer07_buildTree) 【[中等](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)】
+20. [700. 二叉搜索树中的搜索](topic13_tree/T700_searchBST) 【[简单](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)】
 ### [归并排序](topic15_merge/)
 **[思路汇总](topic15_merge/)**
 1. [面试题51. 数组中的逆序对](topic15_merge/TM51_reversePairs/)
