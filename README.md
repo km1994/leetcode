@@ -330,6 +330,10 @@
 ### [滑动窗口](topic22_move_window/)
 **[思路汇总](topic22_move_window/)**
 1. [76. 最小覆盖子串](topic22_move_window/T76_minWindow/)
+2. [219. 存在重复元素 II](topic22_move_window/T219_containsNearbyDuplicate/) 【[leetcode](https://leetcode-cn.com/problems/contains-duplicate-ii/)】 【简单】
+3. [209. 长度最小的子数组](topic22_move_window/T209_minSubArrayLen/) 
+4. [1343. 大小为 K 且平均值大于等于阈值的子数组数目](topic22_move_window/T1343_numOfSubarrays/) 
+5. [1052. 爱生气的书店老板](topic22_move_window/T1052_maxSatisfied/) 
 ### [数学题](topic23_math/)
 **[思路汇总](topic23_math/)**
 1. [976. 三角形的最大周长](topic23_math/T976_largestPerimeter/) 【简单】
