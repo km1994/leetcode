@@ -68,7 +68,7 @@ class Solution:
             if grid[r][c] != 1:
                 return 0
             # 用于标注 被走过的位置，防止 重复遍历
-            grid[r][c] == 2
+            grid[r][c] = 2
             return self.dfs(grid,r+1,c)+self.dfs(grid,r-1,c)+self.dfs(grid,r,c-1)+self.dfs(grid,r,c+1)
         else:
             return 1
