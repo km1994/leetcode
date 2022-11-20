@@ -99,6 +99,11 @@
 17. [面试题29. 顺时针打印矩阵](topic2_arr/MS29_spiralOrder/) 【简单】【[leetcode](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)】
 18. [14. 最长公共前缀](topic2_arr/T14_longestCommonPrefix/) 【简单】【[leetcode](https://leetcode-cn.com/problems/longest-common-prefix/)】
 19. [剑指 Offer 04. 二维数组中的查找](topic2_arr/jz04_findNumberIn2DArray/) 【中等】【[leetcode](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)】
+20. [228. 汇总区间](topic3_List/T228_summaryRanges/) 【简单】 【[leetcode](https://leetcode.cn/problems/summary-ranges/)】
+21. [260. 只出现一次的数字 III](topic3_List/singleNumber/) 【中等】 【[leetcode](https://leetcode.cn/problems/single-number-iii/)】
+
+
+T260_singleNumber
 ### [链表](topic3_List/)
 **[思路汇总](topic3_List/)**
 1. [在未排序链表中，怎样移除重复的节点?](topic3_List/T_removeRepeat/)

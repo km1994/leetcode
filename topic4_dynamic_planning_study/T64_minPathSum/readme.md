@@ -50,9 +50,11 @@ class Solution(object):
         sum_grid = [[9999 for j in range(col)] for i in range(row)]
         sum_grid[0][0] = grid[0][0]
         # step 3: 初始化 第一列
-        for i in range(1,row):  sum_grid[i][0] = sum_grid[i-1][0]+grid[i][0]
+        for i in range(1,row):  
+            sum_grid[i][0] = sum_grid[i-1][0]+grid[i][0]
         # step 4：初始化 第一行
-        for i in range(1,col):   sum_grid[0][i] = sum_grid[0][i-1]+grid[0][i]
+        for i in range(1,col):   
+            sum_grid[0][i] = sum_grid[0][i-1]+grid[0][i]
         # step 5：动态规划 
         '''
             状态方程：sum_grid[i][j] = min(sum_grid[i-1][j]+grid[i][j],sum_grid[i][j-1]+grid[i][j])
